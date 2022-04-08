@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get("mi_primer_web",function(){
   return view("examples.hello_world");
 });
+Route::get("test_template",function(){
+  return view("layouts.template");
+});
+Route::get("test_template1",function(){
+  return view("layouts.registro");
+});
