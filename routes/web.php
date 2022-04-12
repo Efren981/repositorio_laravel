@@ -25,3 +25,11 @@ Route::get("test_template",function(){
 Route::get("test_template1",function(){
   return view("layouts.registro");
 });
+
+Route::get("registro_bootstrap",function(){
+  return view("layouts.registro_bootstrap");
+});
+
+Route::get("Basic_Wizard",function(){
+  return view ("layouts.wizard");
+});

@@ -407,3 +407,6 @@ a.active{
 a.nav-link:hover{
   color:rgba(255,255,255,.5) !important;
 }
+body.background{
+  background-color:   #3e628c  !important;
+}
