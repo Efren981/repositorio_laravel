@@ -99,7 +99,7 @@
                 </select>
               </div>
               <div class="col">
-                <label for="form-select" class="form-label">State</label>
+                <label for="form-select" class="form-label">Estado</label>
                 <select class="form-select" id="form-select">
                   <option selected>Elija</option>
                   <option value="1">Edo. Mex</option>

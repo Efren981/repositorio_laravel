@@ -399,14 +399,6 @@
 .icon-libreoffice:before {
   content: "\eae3";
 }
-
-a.active{
-  color:rgba(255,255,255,.6) !important;
-  font-size: 1.3em;
-}
-a.nav-link:hover{
-  color:rgba(255,255,255,.5) !important;
-}
-body.background{
-  background-color:   #3e628c  !important;
+.background{
+  background: #0B52EB !important;
 }
