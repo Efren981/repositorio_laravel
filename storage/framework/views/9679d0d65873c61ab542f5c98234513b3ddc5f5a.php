@@ -55,14 +55,14 @@
                             <?php endif; ?>
                         <?php else: ?>
                             <li class="nav-item">
-                                <a href="<?php echo e(url("example1")); ?>" class="nav-link <?php echo $__env->yieldContent("example_1_active"); ?>">example 1</a>
+                                <a href="<?php echo e(url("tipos_reacciones")); ?>" class="nav-link <?php echo $__env->yieldContent("example_1_active"); ?>" data-toggle="tooltip" title="Ir a la seccion de reacciones">Reacciones</a>
                             </li>
                             <li class="nav-item">
-                                <a href="<?php echo e(url("example2")); ?>" class="nav-link <?php echo $__env->yieldContent("example_2_active"); ?>">example 2</a>
+                                <a href="<?php echo e(url("tipos_post")); ?>" class="nav-link <?php echo $__env->yieldContent("example_2_active"); ?>" data-toggle="tooltip" title="Ir a la seccion de publicaciones">Publicaciones</a>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre data-toggle="tooltip" title="Usuarios">
                                     <?php echo e(Auth::user()->name); ?>
 
                                 </a>

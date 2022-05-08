@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -46,9 +45,9 @@ Route::get("examu2", function(){
   return view("examen.unidad2");
 });
 
-Auth::routes();
+Route::resource("tipos_reacciones",\App\Http\Controllers\ReactionTypeController::class);
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource("tipos_post",\App\Http\Controllers\PostTypeController::class);
 
 Auth::routes();
 
